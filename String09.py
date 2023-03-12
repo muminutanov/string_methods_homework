@@ -7,4 +7,5 @@ def main(s):
         int: answer
     """
     
-    return
+    return (s.find("a",0,100))
+print(main(s="Mobile development"))
