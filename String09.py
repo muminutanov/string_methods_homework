@@ -7,5 +7,5 @@ def main(s):
         int: answer
     """
     
-    return (s.find("a",0,100))
+    return (s.count("a",0,100))
 print(main(s="Mobile development"))
