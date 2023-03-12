@@ -6,5 +6,10 @@ def main(s):
     Returns:
         bool: answer
     """
+    if (s.lower()):
+        return True
+    else:
+        return False
+
+print(main("mobile"))
     
-    return
